@@ -1,0 +1,34 @@
+:root {
+  --font-body: 1rem;
+  --font-small: .875rem;
+  --font-label: .75rem;
+  --font-h1: clamp(2rem, 3.4vw, 2.5rem);
+  --font-h2: clamp(1.5rem, 2.5vw, 1.875rem);
+  --font-h3: clamp(1.125rem, 1.8vw, 1.375rem);
+  --line-body: 1.55;
+  --line-heading: 1.2;
+  --page-gutter: clamp(1rem, 4.5vw, 4.5rem);
+  --content-max: 1720px;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #173b5b;
+  background: #e6e6e6;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-behavior: smooth; overflow-x: clip; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+body { width: 100%; margin: 0; min-width: 320px; min-height: 100vh; overflow-x: clip; }
+body, #root { min-height: 100vh; }
+.page-container { width: min(calc(100% - var(--page-gutter) - var(--page-gutter)), var(--content-max)); margin-inline: auto; }
+body { font-size: var(--font-body); line-height: var(--line-body); }
+a { color: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 2px solid #087e68; outline-offset: 3px; }

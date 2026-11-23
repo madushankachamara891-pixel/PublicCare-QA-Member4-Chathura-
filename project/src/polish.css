@@ -1,0 +1,120 @@
+/* Shared visual finish for the existing PublicCare screens. */
+:root {
+  --pc-navy: #173b5b;
+  --pc-navy-deep: #12324d;
+  --pc-green: #13866f;
+  --pc-green-hover: #0e705d;
+  --pc-green-pale: #e8f4ec;
+  --pc-ink: #334b5f;
+  --pc-muted: #64788a;
+  --pc-border: #dce6e9;
+  --pc-surface: #ffffff;
+  --pc-canvas: #f5f8f9;
+  --pc-shadow: 0 8px 24px rgb(23 59 91 / 6%);
+  color: var(--pc-navy);
+  background: var(--pc-canvas);
+}
+
+body { background: var(--pc-canvas); color: var(--pc-ink); }
+.site-shell { color: var(--pc-navy); }
+.topbar, .account-header { border-bottom: 1px solid var(--pc-border); }
+.hero-section, .issue-banner, .reports-hero, .public-detail-banner,
+.admin-banner, .admin-issues-banner, .admin-update-banner,
+.login-welcome-panel { background: var(--pc-green-pale); }
+
+.button.primary, .get-started, .submit-button, .new-report-button,
+.login-submit, .reports-empty > a, .report-history-copy a,
+.report-retry-button, .issues-pagination button.current,
+.update-form-actions>button { background: var(--pc-green); }
+.button.primary:hover, .get-started:hover, .submit-button:hover,
+.new-report-button:hover, .login-submit:hover, .reports-empty > a:hover,
+.report-history-copy a:hover, .report-retry-button:hover,
+.update-form-actions>button:hover { background: var(--pc-green-hover); }
+
+.button, .new-report-button, .submit-button, .cancel-button,
+.login-submit, .issues-export-button, .issues-reset-button,
+.issues-pagination button, .report-tools select, .reset-filters,
+.report-search, .account-link, .update-form-actions>a,
+.update-form-actions>button, .photo-actions button,
+.remove-photo-button, .retry-image-button {
+  min-height: 40px;
+  border-radius: 8px;
+}
+
+.overview-card, .issue-form-card, .privacy-card, .reports-summary article,
+.reports-table-card, .public-detail-card, .detail-card, .timeline-card,
+.edit-issue-form, .login-form-card, .admin-stat-card, .admin-panel,
+.update-form-card, .update-side-card, .issue-management-panel {
+  border-color: var(--pc-border);
+  border-radius: 12px;
+  background-color: var(--pc-surface);
+  box-shadow: var(--pc-shadow);
+}
+
+.issue-form-card input:not([type=file]), .issue-form-card select,
+.issue-form-card textarea, .edit-issue-form>input:not([type=file]),
+.edit-issue-form>select, .edit-issue-form>textarea,
+.login-form-card input:not([type=checkbox]), .update-field-grid>input,
+.update-field-grid>textarea, .select-wrap select, .note-wrap textarea,
+.report-search, .report-search input, .report-tools select,
+.reports-filters input, .reports-filters select, .issues-filters select,
+.issues-search {
+  border-color: var(--pc-border);
+  border-radius: 8px;
+  color: var(--pc-ink);
+  background-color: var(--pc-surface);
+}
+
+.issue-form-card input:focus, .issue-form-card select:focus,
+.issue-form-card textarea:focus, .edit-issue-form>input:focus,
+.edit-issue-form>select:focus, .edit-issue-form>textarea:focus,
+.login-form-card input:focus, .update-field-grid>input:focus,
+.update-field-grid>textarea:focus, .select-wrap select:focus,
+.note-wrap textarea:focus, .report-search:focus-within,
+.report-tools select:focus, .reports-filters input:focus,
+.reports-filters select:focus, .issues-filters select:focus,
+.issues-search:focus-within {
+  border-color: var(--pc-green);
+  outline: 3px solid rgb(19 134 111 / 15%);
+  outline-offset: 1px;
+  box-shadow: none;
+}
+
+.breadcrumbs, .admin-breadcrumbs, .public-detail-breadcrumbs { color: #496b60; }
+.issue-banner-row p:not(.breadcrumbs), .reports-title-row p,
+.admin-banner-row p, .public-detail-inner>p:last-child { color: #45675e; }
+.reports-privacy, .issues-management-note, .upload-box, .why-card,
+.before-save-card, .edit-side-note { background: var(--pc-green-pale); }
+.reports-table th, .issues-table th, .admin-table th { background: #edf4f0; }
+.reports-table td, .issues-table td, .admin-table td { border-color: #e6edef; }
+.reference-link, .report-actions a, .issues-reference,
+.issues-row-actions a, .issues-public-approval>button,
+.admin-panel-heading>a, .admin-view-link:hover,
+.report-list-reference, .report-history-copy a,
+.report-retry-button { color: var(--pc-green); }
+.report-status.resolved, .issues-status.resolved, .admin-status.resolved,
+.update-status-pill.resolved { color: #176b50; background: #e5f2e9; }
+.report-status.pending, .issues-status.pending, .admin-status.pending,
+.update-status-pill { color: #815b13; background: #fbf3df; }
+.report-status.in-progress, .issues-status.in-progress, .admin-status.in-progress,
+.update-status-pill.in-progress { color: #245d85; background: #e8f1f7; }
+
+a:hover { text-underline-offset: 3px; }
+button:not(:disabled), a, select { touch-action: manipulation; }
+button:focus-visible, a:focus-visible, input:focus-visible,
+select:focus-visible, textarea:focus-visible { outline-color: var(--pc-green); }
+
+@media (max-width: 760px) {
+  .issue-form-card, .reports-table-card, .login-form-card,
+  .update-form-card { padding: 1rem; }
+  .admin-content, .reports-content { padding-bottom: 1.5rem; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .button, .nav-actions a, .new-report-button, .submit-button,
+  .login-submit, .category-card, .admin-view-link {
+    transition: color .16s ease, background-color .16s ease,
+      border-color .16s ease, box-shadow .16s ease, transform .16s ease;
+  }
+  .category-card:hover { border-color: #a8cfbf; box-shadow: var(--pc-shadow); }
+}

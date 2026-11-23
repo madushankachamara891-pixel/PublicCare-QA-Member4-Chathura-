@@ -1,0 +1,81 @@
+.create-issue-page { display: flex; flex-direction: column; }
+.create-issue-page .topbar { flex: 0 0 60px; }
+.issue-banner { background: #a3e5b1; }
+.issue-banner-inner { width:min(100%,var(--content-max)); margin-inline:auto; padding:14px var(--page-gutter) 20px; }
+.breadcrumbs { display: flex; align-items: center; gap: 9px; margin: 0 0 10px; color: #617d78; font-size: 8px; }
+.breadcrumbs a { text-decoration: none; }
+.issue-banner-row { display: flex; align-items: center; justify-content: space-between; }
+.issue-banner-row h1 { margin: 0 0 4px; font-size: 21px; line-height: 1.25; letter-spacing: -.35px; color: #153b5c; }
+.issue-banner-row p:not(.breadcrumbs) { margin: 0; color: #758d88; font-size: 10px; }
+.step-pill { min-width: 80px; padding: 6px 13px; text-align: center; background: #e7f8ed; color: #15866e; border-radius: 20px; font-size: 7px; }
+.issue-layout { width:min(100%,var(--content-max)); margin-inline:auto; flex:1; display:grid; grid-template-columns:minmax(0,1.72fr) minmax(280px,.92fr); align-items:start; gap:20px; padding:19px var(--page-gutter) 48px; }
+.issue-form-card { min-width: 0; padding: 16px 19px 17px; border: 1px solid #e3eaf0; border-radius: 13px; text-align: left; }
+.form-heading { margin-bottom: 15px; }
+.form-heading h2 { margin: 0 0 4px; color: #153957; font-size: 14px; }
+.form-heading p, .field-hint { margin: 0; color: #77889a; font-size: 8px; }
+.field-label { display: block; margin: 0 0 5px; color: #173b5a; font-size: 8px; font-weight: 650; }
+.issue-form-card input:not([type=file]), .issue-form-card select, .issue-form-card textarea { width: 100%; border: 1px solid #e2e9ef; border-radius: 7px; background: white; color: #173b5b; font: inherit; font-size: 9px; outline: none; }
+.issue-form-card #issue-title, .issue-form-card #issue-location { font-size: .9375rem; }
+.issue-form-card input:not([type=file]), .issue-form-card select { height: 31px; padding: 0 9px; margin-bottom: 14px; }
+.issue-form-card textarea { min-height: 72px; resize: vertical; padding: 9px; margin-bottom: 4px; }
+.issue-form-card input::placeholder, .issue-form-card textarea::placeholder { color: #8392a2; opacity: 1; }
+.issue-form-card select { appearance: auto; color: #77889a; }
+.issue-form-card input:focus, .issue-form-card select:focus, .issue-form-card textarea:focus { border-color: #158c72; box-shadow: 0 0 0 2px #158c721a; }
+.description-hint { margin-bottom: 16px; }
+.photo-label { margin-top: 0; }
+.upload-box { min-height: 56px; display: flex; align-items: center; gap: 10px; padding: 9px 11px; border-radius: 7px; background: #d6f0ca; color: #173b5b; cursor: pointer; }
+.upload-box.upload-disabled { cursor: not-allowed; opacity: .7; }
+.upload-icon { width: 27px; height: 27px; flex: 0 0 27px; display: grid; place-items: center; border-radius: 7px; background: #e9f8ed; color: #128a72; font-size: 19px; font-weight: 600; }
+.upload-copy { min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.upload-copy strong { overflow: hidden; color: #173b5b; font-size: 10px; text-overflow: ellipsis; white-space: nowrap; }
+.upload-copy small { color: #788e82; font-size: 7px; }
+.browse-link { margin-left: auto; color: #12876f; font-size: 8px; white-space: nowrap; }
+.file-input { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; clip-path: inset(50%); }
+.file-input:focus-visible + .upload-hint { outline: 2px solid #087e68; outline-offset: 2px; }
+.upload-hint { margin-top: 6px; }
+.selected-photo-preview { display: flex; align-items: center; gap: 11px; margin-top: 9px; }
+.selected-photo-preview img { width: 104px; height: 76px; object-fit: cover; border: 1px solid #e1e9ee; border-radius: 8px; background: #f5f8fa; }
+.remove-photo-button, .retry-image-button { min-height: 30px; padding: 6px 10px; border: 1px solid #e2e9ef; border-radius: 7px; background: white; color: #12866f; font: inherit; font-size: 9px; font-weight: 650; cursor: pointer; }
+.retry-image-button { margin-top: 10px; }
+.remove-photo-button:disabled, .retry-image-button:disabled { cursor: wait; opacity: .65; }
+.demo-notice.upload-failed { background: #fff0ee; color: #a73b35; }
+.form-actions { display: flex; align-items: center; justify-content: space-between; margin-top: 14px; }
+.cancel-button, .submit-button { min-width: 80px; height: 30px; display: inline-flex; align-items: center; justify-content: center; gap: 7px; border-radius: 7px; font: inherit; font-size: 9px; font-weight: 650; text-decoration: none; cursor: pointer; }
+.cancel-button { border: 1px solid #e3eaf0; background: white; color: #153957; }
+.submit-button { min-width: 115px; border: 0; background: #138a70; color: white; }
+.demo-notice { margin: 11px 0 0; padding: 9px 11px; border-radius: 7px; background: #e7f6ef; color: #126f5e; font-size: 9px; line-height: 1.45; }
+.issue-sidebar { display: grid; gap: 14px; }
+.why-card { min-height: 298px; padding: 17px 18px 15px; border-radius: 13px; background: #a3e5b1; text-align: left; }
+.why-heading { display: flex; align-items: center; gap: 10px; }
+.info-icon { width: 28px; height: 28px; display: grid; place-items: center; border-radius: 8px; background: #e9f8ed; color: #128a72; font-size: 14px; font-weight: 700; }
+.why-heading h2 { margin: 0; color: #153957; font-size: 13px; }
+.why-intro { margin: 11px 0 16px; color: #162f34; font-size: 9px; line-height: 1.5; }
+.why-list { display: grid; gap: 16px; margin: 0; padding: 0; list-style: none; }
+.why-list li { display: flex; align-items: center; gap: 10px; }
+.why-list li > span { width: 27px; height: 27px; flex: 0 0 27px; display: grid; place-items: center; border-radius: 8px; background: white; color: #14886f; font-size: 8px; font-weight: 700; }
+.why-list li div { display: grid; gap: 4px; }
+.why-list strong { color: #173b5b; font-size: 9px; font-weight: 650; }
+.why-list small { color: #57736b; font-size: 7px; }
+.privacy-card { min-height: 105px; padding: 15px 17px; border: 1px solid #e3eaf0; border-radius: 12px; text-align: left; }
+.privacy-card h2 { margin: 0 0 8px; color: #153957; font-size: 11px; }
+.privacy-card p { margin: 0 0 8px; color: #718398; font-size: 8px; line-height: 1.4; }
+.privacy-card > span { display: inline-block; padding: 6px 9px; border-radius: 20px; background: #e5f5ef; color: #13866f; font-size: 6px; }
+.create-issue-page .footer { border-top: 1px solid #e5ebef; }
+@media (min-width: 761px) { .issue-layout { grid-template-columns:minmax(0,1.72fr) minmax(280px,.92fr); } }
+@media (max-width: 760px) {
+  .issue-banner-inner { padding:14px var(--page-gutter) 18px; }
+  .issue-banner-row { gap: 12px; align-items: flex-start; }
+  .issue-banner-row h1 { font-size: 19px; }
+  .issue-layout { grid-template-columns:1fr; padding:17px var(--page-gutter) 30px; }
+  .issue-form-card { padding: 16px; }
+  .issue-sidebar { grid-template-columns: 1fr; }
+  .why-card { min-height: auto; }
+  .why-list { gap: 13px; }
+}
+@media (max-width: 420px) {
+  .issue-banner-row { flex-direction: column; }
+  .issue-layout { padding-left:var(--page-gutter); padding-right:var(--page-gutter); }
+  .issue-form-card { padding: 14px 12px; }
+  .upload-box { gap: 7px; padding: 8px; }
+  .browse-link { font-size: 7px; }
+}

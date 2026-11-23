@@ -1,0 +1,111 @@
+/* Shared type scale. Page styles below only place the scale into each layout. */
+h1, h2, h3 { line-height: var(--line-heading); }
+h1 { font-size: var(--font-h1); }
+h2 { font-size: var(--font-h2); }
+h3 { font-size: var(--font-h3); }
+button, input, select, textarea { font: inherit; }
+
+/* Shared header */
+.site-shell .brand-copy strong { font-size: 1rem; }
+.site-shell .brand-copy small { font-size: var(--font-label); line-height: 1.3; }
+.site-shell .navigation a, .site-shell .nav-actions a { font-size: .9375rem; }
+.site-shell .nav-actions a { padding: .55rem .85rem; }
+
+/* Home */
+.site-shell .eyebrow-pill, .site-shell .section-kicker { font-size: var(--font-label); }
+.site-shell .hero-copy h1 { font-size: clamp(2rem, 3.4vw, 2.5rem); line-height: 1.12; }
+.site-shell .hero-lead, .site-shell .hero-sub, .site-shell .hero-note,
+.site-shell .button, .site-shell .overview-heading p, .site-shell .issue-preview p,
+.site-shell .stat span, .site-shell .section-description, .site-shell .category-card,
+.site-shell .category-description, .site-shell .step p, .site-shell .footer span { font-size: .9375rem; }
+.site-shell .overview-heading h2 { font-size: 1.25rem; }
+.site-shell .live-badge, .site-shell .status-badge { font-size: .75rem; }
+.site-shell .issue-preview h3, .site-shell .category-card strong, .site-shell .step h3 { font-size: 1.125rem; }
+.site-shell .categories-section > h2, .site-shell .process-intro h2 { font-size: var(--font-h2); white-space: normal; }
+.site-shell .stat strong { font-size: 1.375rem; }
+.site-shell .footer strong { font-size: .9375rem; }
+
+/* Create Issue */
+.site-shell .breadcrumbs, .site-shell .issue-banner-row p:not(.breadcrumbs),
+.site-shell .form-heading p, .site-shell .field-hint, .site-shell .field-label,
+.site-shell .issue-form-card input, .site-shell .issue-form-card select,
+.site-shell .issue-form-card textarea, .site-shell .upload-copy strong,
+.site-shell .browse-link, .site-shell .cancel-button, .site-shell .submit-button,
+.site-shell .demo-notice, .site-shell .why-intro, .site-shell .why-list strong,
+.site-shell .privacy-card p { font-size: .9375rem; }
+.site-shell .issue-banner-row h1 { font-size: var(--font-h1); line-height: var(--line-heading); }
+.site-shell .form-heading h2, .site-shell .why-heading h2,
+.site-shell .privacy-card h2 { font-size: 1.25rem; }
+.site-shell .why-list small, .site-shell .upload-copy small,
+.site-shell .privacy-card > span, .site-shell .step-pill { font-size: var(--font-label); }
+.site-shell .issue-form-card input:not([type=file]), .site-shell .issue-form-card select { height: 2.75rem; }
+.site-shell .issue-form-card textarea { min-height: 7rem; }
+.site-shell .cancel-button, .site-shell .submit-button { min-height: 2.75rem; height: auto; padding: .65rem 1rem; }
+
+/* My Reports */
+.site-shell.reports-page .breadcrumbs, .site-shell.detail-page .breadcrumbs, .site-shell .back-link,
+.site-shell .reports-title-row p:last-child, .site-shell .reports-kicker,
+.site-shell .new-report-button, .site-shell .reports-section-heading > a,
+.site-shell .reports-summary small, .site-shell .reports-section-heading p,
+.site-shell .report-search input, .site-shell .report-tools select,
+.site-shell .reports-table, .site-shell .reports-table th,
+.site-shell .reports-table td, .site-shell .report-name, .site-shell .report-meta,
+.site-shell .report-status,
+.site-shell .reports-count, .site-shell .reports-privacy strong,
+.site-shell .reports-privacy p, .site-shell .reports-privacy > a,
+.site-shell .reports-empty strong, .site-shell .reports-empty p,
+.site-shell .reports-empty > a { font-size: .9375rem; }
+.site-shell .reports-title-row h1 { font-size: var(--font-h1); line-height: var(--line-heading); }
+.site-shell .reports-section-heading h2 { font-size: var(--font-h3); }
+.site-shell .reports-summary strong { font-size: 1.375rem; }
+.site-shell .reports-table th { font-size: .875rem; }
+.site-shell .report-meta { color: #718195; }
+.site-shell .reports-summary article { min-height: 5rem; padding: .85rem 1rem; }
+.site-shell .report-tools input, .site-shell .report-tools select { min-height: 2.8rem; }
+.site-shell .reports-table { min-width: 920px; line-height: 1.4; }
+.site-shell .reports-table th { height: auto; padding: .75rem .85rem; white-space: normal; }
+.site-shell .reports-table td { height: auto; min-height: 4.25rem; padding: .85rem; white-space: normal; }
+.site-shell .report-status { padding: .35rem .65rem; }
+.site-shell .reports-empty, .site-shell .reports-privacy { line-height: 1.5; }
+
+/* Issue details, edit, login and register */
+.site-shell .detail-page .breadcrumbs, .site-shell .detail-id,
+.site-shell .detail-title-row p:last-child, .site-shell .edit-subheading,
+.site-shell .detail-facts small, .site-shell .detail-facts strong,
+.site-shell .detail-card > p, .site-shell .location-panel strong,
+.site-shell .location-panel p, .site-shell .tracking-list strong,
+.site-shell .tracking-list small, .site-shell .edit-issue-link,
+.site-shell .edit-form label, .site-shell .edit-form input,
+.site-shell .edit-form select, .site-shell .edit-form textarea,
+.site-shell .account-card label, .site-shell .account-card input,
+.site-shell .account-card > p:not(.reports-kicker):not(.account-switch),
+.site-shell .account-switch { font-size: .9375rem; }
+.site-shell .detail-title-row h1, .site-shell .edit-heading,
+.site-shell .account-card h1 { font-size: var(--font-h1); line-height: var(--line-heading); }
+.site-shell .detail-card h2, .site-shell .timeline-card h2 { font-size: var(--font-h3); }
+.site-shell .detail-card h3 { font-size: 1.125rem; }
+.site-shell .edit-form input, .site-shell .edit-form select,
+.site-shell .edit-form textarea, .site-shell .account-card input { min-height: 2.8rem; padding: .65rem .75rem; }
+
+@media (max-width: 760px) {
+  .site-shell .navigation a { font-size: .875rem; }
+  .site-shell .hero-copy h1 { font-size: clamp(2rem, 8vw, 2.75rem); }
+  .site-shell .reports-title-row h1, .site-shell .issue-banner-row h1,
+  .site-shell .detail-title-row h1, .site-shell .edit-heading,
+  .site-shell .account-card h1 { font-size: clamp(2rem, 7vw, 2.5rem); }
+  .site-shell .reports-content { padding-top: 1.25rem; }
+  .site-shell .report-tools { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .site-shell .report-search { grid-column: 1 / -1; }
+  .site-shell .reports-table-wrap { max-width: 100%; }
+}
+
+@media (max-width: 420px) {
+  .site-shell .navigation { height: auto; min-height: 2.5rem; }
+  .site-shell .navigation a { font-size: .875rem; }
+  .site-shell .hero-actions { flex-wrap: wrap; }
+  .site-shell .report-tools { grid-template-columns: 1fr; }
+  .site-shell .report-search { grid-column: auto; }
+  .site-shell .reports-title-row h1, .site-shell .issue-banner-row h1,
+  .site-shell .detail-title-row h1, .site-shell .edit-heading,
+  .site-shell .account-card h1 { font-size: 2rem; }
+}
