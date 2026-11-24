@@ -1,0 +1,730 @@
+[
+  {
+    "rule": "java:S1128",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/admin/AdminSetupRunner.java",
+    "line": 4,
+    "message": "Remove this unused import 'java.util.Locale'.",
+    "severity": "MINOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S106",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/admin/AdminSetupRunner.java",
+    "line": 36,
+    "message": "Replace this use of System.out by a logger.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S4032",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/common/package-info.java",
+    "line": null,
+    "message": "Remove this package.",
+    "severity": "MINOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S4032",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/issue/package-info.java",
+    "line": null,
+    "message": "Remove this package.",
+    "severity": "MINOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S1068",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/report/PublicReportService.java",
+    "line": 13,
+    "message": "Remove this unused \"PUBLIC_UPDATES_PER_REPORT\" private field.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S1612",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/report/ReportDeletionService.java",
+    "line": 38,
+    "message": "Replace this lambda with method reference 'Objects::nonNull'. (sonar.java.source not set. Assuming 8 or greater.)",
+    "severity": "MINOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S1128",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/report/ReportImageService.java",
+    "line": 8,
+    "message": "Remove this unused import 'lk.publiccare.backend.user.PublicCareUser'.",
+    "severity": "MINOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S1192",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/report/ReportImageService.java",
+    "line": 83,
+    "message": "Define a constant instead of duplicating this literal \"Uploaded file is not a valid \" 4 times.",
+    "severity": "CRITICAL",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S1192",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/report/ReportImageService.java",
+    "line": 83,
+    "message": "Define a constant instead of duplicating this literal \" image.\" 4 times.",
+    "severity": "CRITICAL",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S3776",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/report/ReportImageService.java",
+    "line": 101,
+    "message": "Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.",
+    "severity": "CRITICAL",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S6218",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/report/ReportImageService.java",
+    "line": 152,
+    "message": "Override equals, hashCode and toString to consider array's content in the method",
+    "severity": "MAJOR",
+    "type": "BUG"
+  },
+  {
+    "rule": "java:S3776",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/report/ReportProgressService.java",
+    "line": 19,
+    "message": "Refactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.",
+    "severity": "CRITICAL",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S1659",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/report/ReportProgressService.java",
+    "line": 23,
+    "message": "Declare \"type\" and all following declarations on a separate line.",
+    "severity": "MINOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S2681",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/report/ReportProgressService.java",
+    "line": 38,
+    "message": "This statement will not be executed conditionally; only the first statement will be. The rest will execute unconditionally.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S107",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/report/ReportService.java",
+    "line": 38,
+    "message": "Method has 8 parameters, which is greater than 7 authorized.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S107",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/report/ReportService.java",
+    "line": 52,
+    "message": "Method has 8 parameters, which is greater than 7 authorized.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S1192",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/report/ReportService.java",
+    "line": 64,
+    "message": "Define a constant instead of duplicating this literal \"createdAt\" 3 times.",
+    "severity": "CRITICAL",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S1192",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/report/ReportService.java",
+    "line": 67,
+    "message": "Define a constant instead of duplicating this literal \"title\" 3 times.",
+    "severity": "CRITICAL",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S1192",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/report/ReportService.java",
+    "line": 68,
+    "message": "Define a constant instead of duplicating this literal \"status\" 6 times.",
+    "severity": "CRITICAL",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S1192",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/report/ReportService.java",
+    "line": 69,
+    "message": "Define a constant instead of duplicating this literal \"category\" 6 times.",
+    "severity": "CRITICAL",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S2160",
+    "component": "publiccare-member4:project/backend/src/main/java/lk/publiccare/backend/security/PublicCarePrincipal.java",
+    "line": 8,
+    "message": "Override the \"equals\" method in this class.",
+    "severity": "MINOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S5778",
+    "component": "publiccare-member4:project/backend/src/test/java/lk/publiccare/backend/auth/AuthServiceTest.java",
+    "line": 62,
+    "message": "Refactor the code of the lambda to have only one invocation possibly throwing a runtime exception.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S5778",
+    "component": "publiccare-member4:project/backend/src/test/java/lk/publiccare/backend/report/ReportImageServiceTest.java",
+    "line": 47,
+    "message": "Refactor the code of the lambda to have only one invocation possibly throwing a runtime exception.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "java:S5778",
+    "component": "publiccare-member4:project/backend/src/test/java/lk/publiccare/backend/report/ReportImageServiceTest.java",
+    "line": 57,
+    "message": "Refactor the code of the lambda to have only one invocation possibly throwing a runtime exception.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6819",
+    "component": "publiccare-member4:project/src/AccountPage.jsx",
+    "line": 112,
+    "message": "Use <output> instead of the \"status\" role to ensure accessibility across all devices.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6774",
+    "component": "publiccare-member4:project/src/AccountPage.jsx",
+    "line": 123,
+    "message": "'mode' is missing in props validation",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6774",
+    "component": "publiccare-member4:project/src/AdminDashboard.jsx",
+    "line": 16,
+    "message": "'status' is missing in props validation",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6819",
+    "component": "publiccare-member4:project/src/AdminDashboard.jsx",
+    "line": 56,
+    "message": "Use <output> instead of the \"status\" role to ensure accessibility across all devices.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S2871",
+    "component": "publiccare-member4:project/src/AdminIssues.jsx",
+    "line": 48,
+    "message": "Provide a compare function to avoid sorting elements alphabetically.",
+    "severity": "CRITICAL",
+    "type": "BUG"
+  },
+  {
+    "rule": "javascript:S6819",
+    "component": "publiccare-member4:project/src/AdminIssues.jsx",
+    "line": 102,
+    "message": "Use <output> instead of the \"status\" role to ensure accessibility across all devices.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S3358",
+    "component": "publiccare-member4:project/src/AdminIssues.jsx",
+    "line": 105,
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S3358",
+    "component": "publiccare-member4:project/src/AdminUpdateIssue.jsx",
+    "line": 105,
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S3358",
+    "component": "publiccare-member4:project/src/AdminUpdateIssue.jsx",
+    "line": 106,
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6819",
+    "component": "publiccare-member4:project/src/AdminUpdateIssue.jsx",
+    "line": 119,
+    "message": "Use <output> instead of the \"status\" role to ensure accessibility across all devices.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6819",
+    "component": "publiccare-member4:project/src/AdminUpdateIssue.jsx",
+    "line": 124,
+    "message": "Use <output> instead of the \"status\" role to ensure accessibility across all devices.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6819",
+    "component": "publiccare-member4:project/src/AdminUpdateIssue.jsx",
+    "line": 133,
+    "message": "Use <output> instead of the \"status\" role to ensure accessibility across all devices.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6851",
+    "component": "publiccare-member4:project/src/AdminUpdateIssue.jsx",
+    "line": 134,
+    "message": "Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don\\u8217t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S3358",
+    "component": "publiccare-member4:project/src/AdminUpdateIssue.jsx",
+    "line": 140,
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6851",
+    "component": "publiccare-member4:project/src/AdminUpdateIssue.jsx",
+    "line": 144,
+    "message": "Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don\\u8217t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S3358",
+    "component": "publiccare-member4:project/src/AdminUpdateIssue.jsx",
+    "line": 150,
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S3358",
+    "component": "publiccare-member4:project/src/AdminUpdateIssue.jsx",
+    "line": 150,
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "css:S4666",
+    "component": "publiccare-member4:project/src/App.css",
+    "line": 22,
+    "message": "Unexpected duplicate selector \".account-chevron\", first used at line 21",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6774",
+    "component": "publiccare-member4:project/src/App.jsx",
+    "line": 17,
+    "message": "'children' is missing in props validation",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6594",
+    "component": "publiccare-member4:project/src/App.jsx",
+    "line": 55,
+    "message": "Use the \"RegExp.exec()\" method instead.",
+    "severity": "MINOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6774",
+    "component": "publiccare-member4:project/src/AuthContext.jsx",
+    "line": 5,
+    "message": "'children' is missing in props validation",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6481",
+    "component": "publiccare-member4:project/src/AuthContext.jsx",
+    "line": 29,
+    "message": "The object passed as the value prop to the Context provider changes every render. To fix this consider wrapping it in a useMemo hook.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6774",
+    "component": "publiccare-member4:project/src/CategoryIllustration.jsx",
+    "line": 1,
+    "message": "'type' is missing in props validation",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6819",
+    "component": "publiccare-member4:project/src/CreateIssue.jsx",
+    "line": 130,
+    "message": "Use <output> instead of the \"status\" role to ensure accessibility across all devices.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6819",
+    "component": "publiccare-member4:project/src/CreateIssue.jsx",
+    "line": 134,
+    "message": "Use <output> instead of the \"status\" role to ensure accessibility across all devices.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S3358",
+    "component": "publiccare-member4:project/src/CreateIssue.jsx",
+    "line": 136,
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6819",
+    "component": "publiccare-member4:project/src/EditIssue.jsx",
+    "line": 39,
+    "message": "Use <output> instead of the \"status\" role to ensure accessibility across all devices.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6819",
+    "component": "publiccare-member4:project/src/IssueDetails.jsx",
+    "line": 72,
+    "message": "Use <output> instead of the \"status\" role to ensure accessibility across all devices.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6819",
+    "component": "publiccare-member4:project/src/IssueDetails.jsx",
+    "line": 82,
+    "message": "Use <output> instead of the \"status\" role to ensure accessibility across all devices.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6851",
+    "component": "publiccare-member4:project/src/IssueDetails.jsx",
+    "line": 83,
+    "message": "Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don\\u8217t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S3776",
+    "component": "publiccare-member4:project/src/IssueDetails.jsx",
+    "line": 90,
+    "message": "Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.",
+    "severity": "CRITICAL",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S3358",
+    "component": "publiccare-member4:project/src/IssueDetails.jsx",
+    "line": 91,
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S3358",
+    "component": "publiccare-member4:project/src/IssueDetails.jsx",
+    "line": 92,
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S3358",
+    "component": "publiccare-member4:project/src/IssueDetails.jsx",
+    "line": 93,
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S3358",
+    "component": "publiccare-member4:project/src/IssueDetails.jsx",
+    "line": 93,
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S3358",
+    "component": "publiccare-member4:project/src/IssueDetails.jsx",
+    "line": 93,
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6819",
+    "component": "publiccare-member4:project/src/IssueDetails.jsx",
+    "line": 100,
+    "message": "Use <output> instead of the \"status\" role to ensure accessibility across all devices.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6774",
+    "component": "publiccare-member4:project/src/MyReports.jsx",
+    "line": 7,
+    "message": "'alert' is missing in props validation",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6774",
+    "component": "publiccare-member4:project/src/MyReports.jsx",
+    "line": 7,
+    "message": "'title' is missing in props validation",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6774",
+    "component": "publiccare-member4:project/src/MyReports.jsx",
+    "line": 7,
+    "message": "'action' is missing in props validation",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6774",
+    "component": "publiccare-member4:project/src/MyReports.jsx",
+    "line": 7,
+    "message": "'children' is missing in props validation",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6819",
+    "component": "publiccare-member4:project/src/MyReports.jsx",
+    "line": 52,
+    "message": "Use <output> instead of the \"status\" role to ensure accessibility across all devices.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6774",
+    "component": "publiccare-member4:project/src/PublicCareLogo.jsx",
+    "line": 1,
+    "message": "'className' is missing in props validation",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6774",
+    "component": "publiccare-member4:project/src/PublicReportDetails.jsx",
+    "line": 8,
+    "message": "'id' is missing in props validation",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6819",
+    "component": "publiccare-member4:project/src/PublicReportDetails.jsx",
+    "line": 34,
+    "message": "Use <output> instead of the \"status\" role to ensure accessibility across all devices.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6819",
+    "component": "publiccare-member4:project/src/PublicReports.jsx",
+    "line": 29,
+    "message": "Use <output> instead of the \"status\" role to ensure accessibility across all devices.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "css:S4666",
+    "component": "publiccare-member4:project/src/ReportDetail.css",
+    "line": 38,
+    "message": "Unexpected duplicate selector \".attached-photo\", first used at line 31",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6774",
+    "component": "publiccare-member4:project/src/SiteHeader.jsx",
+    "line": 6,
+    "message": "'name' is missing in props validation",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6774",
+    "component": "publiccare-member4:project/src/SiteHeader.jsx",
+    "line": 23,
+    "message": "'reportsView' is missing in props validation",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6774",
+    "component": "publiccare-member4:project/src/SiteHeader.jsx",
+    "line": 23,
+    "message": "'trackReportLabel' is missing in props validation",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6774",
+    "component": "publiccare-member4:project/src/SiteHeader.jsx",
+    "line": 23,
+    "message": "'active' is missing in props validation",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6774",
+    "component": "publiccare-member4:project/src/SiteHeader.jsx",
+    "line": 23,
+    "message": "'adminView' is missing in props validation",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S3776",
+    "component": "publiccare-member4:project/src/SiteHeader.jsx",
+    "line": 23,
+    "message": "Refactor this function to reduce its Cognitive Complexity from 36 to the 15 allowed.",
+    "severity": "CRITICAL",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6848",
+    "component": "publiccare-member4:project/src/SiteHeader.jsx",
+    "line": 106,
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6819",
+    "component": "publiccare-member4:project/src/SiteHeader.jsx",
+    "line": 110,
+    "message": "Use <dialog> instead of the \"dialog\" role to ensure accessibility across all devices.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6819",
+    "component": "publiccare-member4:project/src/SiteHeader.jsx",
+    "line": 111,
+    "message": "Use <img alt=...> instead of the \"presentation\" role to ensure accessibility across all devices.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6848",
+    "component": "publiccare-member4:project/src/SiteHeader.jsx",
+    "line": 113,
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S3358",
+    "component": "publiccare-member4:project/src/SiteHeader.jsx",
+    "line": 113,
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6852",
+    "component": "publiccare-member4:project/src/SiteHeader.jsx",
+    "line": 117,
+    "message": "Elements with the 'menu' interactive role must be focusable.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S1082",
+    "component": "publiccare-member4:project/src/SiteHeader.jsx",
+    "line": 117,
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "severity": "MINOR",
+    "type": "BUG"
+  },
+  {
+    "rule": "javascript:S6819",
+    "component": "publiccare-member4:project/src/SiteHeader.jsx",
+    "line": 118,
+    "message": "Use <img alt=...> instead of the \"presentation\" role to ensure accessibility across all devices.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6819",
+    "component": "publiccare-member4:project/src/SiteHeader.jsx",
+    "line": 121,
+    "message": "Use <hr> instead of the \"separator\" role to ensure accessibility across all devices.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S6774",
+    "component": "publiccare-member4:project/src/SummaryIllustration.jsx",
+    "line": 1,
+    "message": "'type' is missing in props validation",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "css:S4666",
+    "component": "publiccare-member4:project/src/index.css",
+    "line": 31,
+    "message": "Unexpected duplicate selector \"body\", first used at line 28",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S3358",
+    "component": "publiccare-member4:project/src/reportsData.js",
+    "line": 18,
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "javascript:S3358",
+    "component": "publiccare-member4:project/src/reportsData.js",
+    "line": 18,
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  },
+  {
+    "rule": "css:S4666",
+    "component": "publiccare-member4:project/src/typography.css",
+    "line": 66,
+    "message": "Unexpected duplicate selector \".site-shell .reports-table th\", first used at line 61",
+    "severity": "MAJOR",
+    "type": "CODE_SMELL"
+  }
+]

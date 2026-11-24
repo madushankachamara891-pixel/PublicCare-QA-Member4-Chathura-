@@ -1,0 +1,13 @@
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using /workspace/scratch/3bd559b42008/qa-copy/qa/member4/health.jmx
+Starting standalone test @ 2026 Nov 24 20:41:59 IST (1795533119284)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      2 in 00:00:01 =    2.9/s Avg:    34 Min:    13 Max:    55 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+summary +     98 in 00:00:06 =   16.0/s Avg:     8 Min:     3 Max:    35 Err:     0 (0.00%) Active: 0 Started: 5 Finished: 5
+summary =    100 in 00:00:07 =   14.6/s Avg:     9 Min:     3 Max:    55 Err:     0 (0.00%)
+Tidying up ...    @ 2026 Nov 24 20:42:06 IST (1795533126239)
+... end of run

@@ -1,0 +1,5 @@
+{"browser":"153.0.8010.0","valuesMatch":true,"message":"Passwords do not match.","submitted":false}
+Correcting either password field must allow submission
+
+false !== true
+

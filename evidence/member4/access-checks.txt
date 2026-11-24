@@ -1,0 +1,6 @@
+GET /api/health
+{"status":"UP"} HTTP 200
+GET /api/admin/reports
+{"error":"Authentication required."} HTTP 401
+GET /api/auth/me
+{"error":"Authentication required."} HTTP 401

@@ -1,0 +1,2 @@
+FR-03.8 PASS: anonymous submission disabled; adjacent sign-in link available.
+FR-02 PASS: keyboard moves from email to password; visibility toggle works both ways; login fits 390 CSS pixels.

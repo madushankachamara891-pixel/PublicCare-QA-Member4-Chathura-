@@ -1,0 +1,136 @@
+Picked up JAVA_TOOL_OPTIONS: -XX:ActiveProcessorCount=2
+20:46:44.705 INFO  Scanner configuration file: NONE
+20:46:44.707 INFO  Project root configuration file: /workspace/scratch/3bd559b42008/qa-copy/qa/member4/sonar-project.properties
+20:46:44.725 INFO  SonarScanner CLI 6.2.1.4610
+20:46:44.727 INFO  Java 21.0.13.1 Azul Systems, Inc. (64-bit)
+20:46:44.732 INFO  Linux 6.18.57 amd64
+20:46:44.765 INFO  User cache: /home/agent/.sonar/cache
+20:46:45.509 INFO  JRE provisioning is disabled
+20:46:45.510 INFO  Using the java executable '/tmp/pc-tools/zulu21.54.201-ca-jdk21.0.13.1-linux_x64/bin/java' from JAVA_HOME
+20:46:45.525 ERROR [stderr] Picked up JAVA_TOOL_OPTIONS: -XX:ActiveProcessorCount=2
+20:46:45.770 INFO  Communicating with SonarQube Server 25.3.0.104237
+20:46:45.788 ERROR [stderr] Picked up JAVA_TOOL_OPTIONS: -XX:ActiveProcessorCount=2
+20:46:46.315 INFO  Starting SonarScanner Engine...
+20:46:46.316 INFO  Java 21.0.13.1 Azul Systems, Inc. (64-bit)
+20:46:47.349 INFO  Load global settings
+20:46:47.488 INFO  Load global settings (done) | time=142ms
+20:46:47.490 INFO  Server id: 147B411E-AaIOIPHTvEHm_sJEfJxA
+20:46:47.501 INFO  Loading required plugins
+20:46:47.504 INFO  Load plugins index
+20:46:47.569 INFO  Load plugins index (done) | time=65ms
+20:46:47.569 INFO  Load/download plugins
+20:46:47.615 INFO  Load/download plugins (done) | time=47ms
+20:46:48.038 INFO  Process project properties
+20:46:48.051 INFO  Process project properties (done) | time=13ms
+20:46:48.064 INFO  Project key: publiccare-member4
+20:46:48.064 INFO  Base dir: /workspace/scratch/3bd559b42008/qa-copy
+20:46:48.064 INFO  Working dir: /workspace/scratch/3bd559b42008/qa-copy/.scannerwork
+20:46:48.073 INFO  Load project settings for component key: 'publiccare-member4'
+20:46:48.124 INFO  Load quality profiles
+20:46:48.256 INFO  Load quality profiles (done) | time=133ms
+20:46:48.289 WARN  SCM provider autodetection failed. Please use "sonar.scm.provider" to define SCM of your project, or disable the SCM Sensor in the project settings.
+20:46:48.299 INFO  Load active rules
+20:46:48.697 INFO  Load active rules (done) | time=397ms
+20:46:48.703 INFO  Load analysis cache
+20:46:48.711 INFO  Load analysis cache (404) | time=8ms
+20:46:48.794 INFO  Preprocessing files...
+20:46:48.931 INFO  3 languages detected in 92 preprocessed files
+20:46:48.932 INFO  2 files ignored because of inclusion/exclusion patterns
+20:46:48.936 INFO  Loading plugins for detected languages
+20:46:48.936 INFO  Load/download plugins
+20:46:48.950 INFO  Load/download plugins (done) | time=14ms
+20:46:49.196 INFO  Load project repositories
+20:46:49.209 INFO  Load project repositories (done) | time=12ms
+20:46:49.235 INFO  Indexing files...
+20:46:49.235 INFO  Project configuration:
+20:46:49.236 INFO    Excluded sources: **/*.png, **/*.svg
+20:46:49.385 INFO  92 files indexed
+20:46:49.387 INFO  Quality profile for css: Sonar way
+20:46:49.387 INFO  Quality profile for java: Sonar way
+20:46:49.387 INFO  Quality profile for js: Sonar way
+20:46:49.387 INFO  ------------- Run sensors on module PublicCare Member 4
+20:46:49.463 INFO  Load metrics repository
+20:46:49.498 INFO  Load metrics repository (done) | time=35ms
+20:46:50.374 INFO  Sensor JavaSensor [java]
+20:46:50.400 INFO  Server-side caching is enabled. The Java analyzer will not try to leverage data from a previous analysis.
+20:46:50.401 INFO  Using ECJ batch to parse 47 Main java source files with batch size 16 KB.
+20:46:50.554 INFO  Starting batch processing.
+20:46:51.119 INFO  The Java analyzer cannot skip unchanged files in this context. A full analysis is performed for all files.
+20:46:54.990 INFO  100% analyzed
+20:46:54.991 INFO  Batch processing: Done.
+20:46:54.991 INFO  Did not optimize analysis for any files, performed a full analysis for all 47 files.
+20:46:54.992 INFO  Using ECJ batch to parse 12 Test java source files with batch size 16 KB.
+20:46:54.997 INFO  Starting batch processing.
+20:46:55.939 INFO  100% analyzed
+20:46:55.939 INFO  Batch processing: Done.
+20:46:55.939 INFO  Did not optimize analysis for any files, performed a full analysis for all 12 files.
+20:46:55.941 WARN  Unresolved imports/types have been detected during analysis. Enable DEBUG mode to see them.
+20:46:55.941 WARN  Use of preview features have been detected during analysis. Enable DEBUG mode to see them.
+20:46:55.941 INFO  No "Generated" source files to scan.
+20:46:55.942 INFO  Sensor JavaSensor [java] (done) | time=5569ms
+20:46:55.942 INFO  Sensor SurefireSensor [java]
+20:46:55.943 INFO  parsing [/workspace/scratch/3bd559b42008/qa-copy/target/surefire-reports]
+20:46:55.943 INFO  Sensor SurefireSensor [java] (done) | time=1ms
+20:46:55.944 INFO  Sensor HTML [web]
+20:46:55.947 INFO  Sensor HTML [web] (done) | time=3ms
+20:46:55.947 INFO  Sensor JaCoCo XML Report Importer [jacoco]
+20:46:55.953 INFO  Importing 1 report(s). Turn your logs in debug mode in order to see the exhaustive list.
+20:46:56.019 INFO  Sensor JaCoCo XML Report Importer [jacoco] (done) | time=73ms
+20:46:56.020 INFO  Sensor Java Config Sensor [iac]
+20:46:56.041 INFO  0 source files to be analyzed
+20:46:56.044 INFO  0/0 source files have been analyzed
+20:46:56.044 INFO  Sensor Java Config Sensor [iac] (done) | time=25ms
+20:46:56.045 INFO  Sensor JavaScript/TypeScript analysis [javascript]
+20:46:56.195 INFO  'sonar.nodejs.executable' is set. Skipping embedded Node.js runtime deployment.
+20:46:56.197 INFO  Using Node.js executable /opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node from property sonar.nodejs.executable.
+20:46:57.822 INFO  Memory configuration: OS (9990 MB), Node.js (2240 MB).
+20:46:59.634 INFO  Found 0 tsconfig.json file(s): []
+20:46:59.650 INFO  Creating TypeScript program
+20:46:59.651 INFO  TypeScript configuration file /tmp/tmp-615-CuvedRWC5Cm1
+20:46:59.651 INFO  21 source files to be analyzed
+20:47:00.200 INFO  Starting analysis with current program
+20:47:04.617 INFO  Analyzed 21 file(s) with current program
+20:47:04.626 INFO  21/21 source files have been analyzed
+20:47:04.626 INFO  Hit the cache for 0 out of 21
+20:47:04.626 INFO  Miss the cache for 21 out of 21: ANALYSIS_MODE_INELIGIBLE [21/21]
+20:47:04.627 INFO  Sensor JavaScript/TypeScript analysis [javascript] (done) | time=8582ms
+20:47:04.627 INFO  Sensor CSS Rules [javascript]
+20:47:04.632 INFO  12 source files to be analyzed
+20:47:04.964 INFO  12/12 source files have been analyzed
+20:47:04.965 INFO  Hit the cache for 0 out of 0
+20:47:04.965 INFO  Miss the cache for 0 out of 0
+20:47:04.965 INFO  Sensor CSS Rules [javascript] (done) | time=338ms
+20:47:04.966 INFO  Sensor CSS Metrics [javascript]
+20:47:05.105 INFO  Sensor CSS Metrics [javascript] (done) | time=140ms
+20:47:05.105 INFO  Sensor IaC Docker Sensor [iac]
+20:47:05.177 INFO  0 source files to be analyzed
+20:47:05.177 INFO  0/0 source files have been analyzed
+20:47:05.177 INFO  Sensor IaC Docker Sensor [iac] (done) | time=72ms
+20:47:05.178 INFO  Sensor TextAndSecretsSensor [text]
+20:47:05.178 INFO  Available processors: 2
+20:47:05.178 INFO  Using 2 threads for analysis.
+20:47:05.525 INFO  Using git CLI to retrieve untracked files
+20:47:05.528 WARN  Analyzing only language associated files, make sure to run the analysis inside a git repository to make use of inclusions specified via "sonar.text.inclusions"
+20:47:05.543 INFO  92 source files to be analyzed
+20:47:05.760 INFO  92/92 source files have been analyzed
+20:47:05.761 INFO  Sensor TextAndSecretsSensor [text] (done) | time=584ms
+20:47:05.764 INFO  ------------- Run sensors on project
+20:47:05.898 INFO  Sensor Zero Coverage Sensor
+20:47:05.907 INFO  Sensor Zero Coverage Sensor (done) | time=8ms
+20:47:05.907 INFO  Sensor Java CPD Block Indexer
+20:47:05.955 INFO  Sensor Java CPD Block Indexer (done) | time=48ms
+20:47:05.955 INFO  ------------- Gather SCA dependencies on project
+20:47:05.958 INFO  SCM Publisher No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+20:47:05.966 INFO  CPD Executor 28 files had no CPD blocks
+20:47:05.967 INFO  CPD Executor Calculating CPD for 40 files
+20:47:05.988 INFO  CPD Executor CPD calculation finished (done) | time=21ms
+20:47:06.195 INFO  Analysis report generated in 197ms, dir size=1.1 MB
+20:47:06.304 INFO  Analysis report compressed in 107ms, zip size=483.6 kB
+20:47:06.686 INFO  Analysis report uploaded in 383ms
+20:47:06.689 INFO  ------------- Check Quality Gate status
+20:47:06.690 INFO  Waiting for the analysis report to be processed (max 300s)
+20:47:21.876 INFO  QUALITY GATE STATUS: PASSED - View details on http://127.0.0.1:9000/dashboard?id=publiccare-member4
+20:47:22.010 INFO  Analysis total time: 34.324 s
+20:47:22.011 INFO  SonarScanner Engine completed successfully
+20:47:22.341 INFO  EXECUTION SUCCESS
+20:47:22.342 INFO  Total time: 37.646s

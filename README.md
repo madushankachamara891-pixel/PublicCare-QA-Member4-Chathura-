@@ -113,3 +113,7 @@ Include:
 - Tool configuration and quality reports
 
 Do not use fabricated evidence.
+
+## Member 4 results
+
+[Sections 3.7–3.10 report](qa/MEMBER4_QA_REPORT.md) · [Raw execution evidence](evidence/member4/) · [Reproduction commands](qa/member4/REPRODUCE.md)
